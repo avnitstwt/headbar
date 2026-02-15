@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.head {
+    padding: 4rem;
+    background-color: #065FD4;
+    background-image: url('./background.png');
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -160px;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    /* height: 15vh; */
+    gap: 10px;
+}
+
+.css {
+    font-size: 30px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.head>.info>img {
+    width: 3rem;
+    border: 2px solid white;
+    vertical-align: middle;
+    border-radius: 100%;
+    margin-right: -10px;
+}
